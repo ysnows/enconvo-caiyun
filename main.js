@@ -36,7 +36,7 @@ async function translate(query) {
     console.log("begin")
 
     if (translate_text !== '') {
-        source_lang = await $lang.detect(translate_text)
+        source_lang = await $Lang.detect(translate_text)
         console.log("source_lang : " + source_lang)
         // 如果是中文则翻译成英文，否则翻译成中文
         if (source_lang === 'zh') {
@@ -67,9 +67,9 @@ async function translate(query) {
             let data = await response.json()
             console.log("data" + JSON.stringify(data))
 
-            display.streamOutput(data.target || data.message)
+            $Display.streamOutput(data.target || data.message)
             console.log("end")
-            display.endOutput()
+            $Display.endOutput()
 
         } catch (e) {
             console.log("error" + JSON.stringify(e))
