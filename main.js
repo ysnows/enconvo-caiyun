@@ -30,7 +30,7 @@ function main(text, contextText, completion) {
         console.log("main")
         var source_lang = 'en';
         var target_lang = 'zh';
-        const translate_text = text || contextText;
+        const translate_text = text || contextText || await Clipboard.readText();
         console.log("begin")
 
         if (translate_text !== '') {
