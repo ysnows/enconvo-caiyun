@@ -1,5 +1,5 @@
 name: "\u5F69\u4E91\u5C0F\u8BD1(\u5F00\u6E90\u7248)"
-version: 0.0.1
+version: 0.0.2
 author: ysnows
 on: {}
 steps:
@@ -17,6 +17,6 @@ description: "\u5F69\u4E91\u5C0F\u8BD1(\u5F00\u6E90\u7248)\uFF0C\u514D\u8D39\u4F
 async: false
 shortName: caiyun
 homePage: https://github.com/ysnows/enconvo-caiyun
-appCast: ''
+appCast: 'https://raw.githubusercontent.com/ysnows/enconvo-caiyun/main/appcast.json'
 shortCut: ''
-minAppVersion: ''
+minAppVersion: '1.1.8'
