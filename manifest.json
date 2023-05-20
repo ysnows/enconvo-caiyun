@@ -1,8 +1,8 @@
 {
-  "version" : "0.0.1",
-  "author" : "ysnows",
+  "name" : "彩云小译(开源版)",
   "description" : "彩云小译(开源版)，免费使用，不需要key",
-  "logo" : "ns:translate",
+  "author" : "ysnows",
   "extensionId" : "ysnows.caiyun",
-  "name" : "彩云小译(开源版)"
+  "version" : "0.0.1",
+  "logo" : "ns:translate"
 }
