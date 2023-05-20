@@ -1,6 +1,11 @@
 {
   "identifier": "ysnows.caiyun",
   "versions": [
-
+    {
+      "version": "0.0.2",
+      "desc": "feat: 1. update plugin",
+      "url": "https://github.com/ysnows/enconvo-caiyun/releases/download/v0.0.2/enconvo-caiyun.enconvoplugin",
+      "minAppVersion": "1.1.8"
+    }
   ]
 }
