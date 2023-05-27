@@ -22,7 +22,7 @@ function main(text, contextText, completion) {
         console.log("main")
         var source_lang = 'en';
         var target_lang = 'zh';
-        const translate_text = text || contextText || await Clipboard.readText();
+        const translate_text = text || contextText.value || await Clipboard.readText();
         console.log("begin")
 
         if (translate_text !== '') {
@@ -57,10 +57,13 @@ function main(text, contextText, completion) {
                 let data = await response.json()
                 console.log("data" + JSON.stringify(data))
 
-                // $Display.streamOutput(data.target || data.message)
                 console.log("end")
-                // $Display.endOutput()
-                completion(data.target || data.message)
+                completion({
+                    result: {
+                        type: "text",
+                        value: data.target || data.message
+                    }
+                })
 
             } catch (e) {
                 console.log("error" + JSON.stringify(e))
