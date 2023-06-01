@@ -1,5 +1,5 @@
 name: "\u5F69\u4E91\u5C0F\u8BD1(\u5F00\u6E90\u7248)"
-version: 0.0.6
+version: 0.0.7
 author: ysnows
 on: {}
 steps:
@@ -18,8 +18,7 @@ async: false
 homePage: https://github.com/ysnows/enconvo-caiyun
 appCast: https://raw.githubusercontent.com/ysnows/enconvo-caiyun/main/appcast.json
 minAppVersion: 1.1.8
-flowType: chain
-pluginType: general
+flowType: plugin
 options:
 - title: General
   items:
