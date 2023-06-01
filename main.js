@@ -29,7 +29,7 @@ function main(text, contextText, completion) {
             source_lang = await $Lang.detect(translate_text)
             console.log("source_lang : " + source_lang)
             // 如果是中文则翻译成英文，否则翻译成中文
-            if (source_lang === 'zh') {
+            if (source_lang === 'zh-Hans') {
                 target_lang = 'en'
             } else {
                 target_lang = 'zh'

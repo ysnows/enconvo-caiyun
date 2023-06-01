@@ -1,5 +1,5 @@
 name: "\u5F69\u4E91\u5C0F\u8BD1(\u5F00\u6E90\u7248)"
-version: 0.0.3
+version: 0.0.6
 author: ysnows
 on: {}
 steps:
@@ -15,8 +15,31 @@ extensionId: ysnows.caiyun
 logo: ns:translate
 description: "\u5F69\u4E91\u5C0F\u8BD1(\u5F00\u6E90\u7248)\uFF0C\u514D\u8D39\u4F7F\u7528\uFF0C\u4E0D\u9700\u8981key"
 async: false
-shortName: caiyun
 homePage: https://github.com/ysnows/enconvo-caiyun
 appCast: https://raw.githubusercontent.com/ysnows/enconvo-caiyun/main/appcast.json
-shortCut: ''
-minAppVersion: '1.1.8'
+minAppVersion: 1.1.8
+flowType: chain
+pluginType: general
+options:
+- title: General
+  items:
+  - identifier: Alias
+    type: text
+    title: Alias
+    defaultValue: ''
+    menuValues: []
+    desc: ''
+    placeholderText: Add alias
+    textWidth: 1.6e+2
+    disable: false
+  - identifier: Hotkey
+    type: hotkey
+    title: Hotkey
+    defaultValue: ''
+    menuValues: []
+    desc: "This shortcut will open an ai conversation window from anywhere in the
+      system\n      . Make sure it is not conflicting with other global shortcuts."
+    placeholderText: Add a hotkey to global start
+    textWidth: 1.6e+2
+    disable: false
+  desc: ''

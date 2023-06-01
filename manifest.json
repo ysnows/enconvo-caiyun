@@ -1,10 +1,10 @@
 {
-  "appCast" : "https://raw.githubusercontent.com/ysnows/enconvo-caiyun/main/appcast.json",
+  "appCast" : "https:\/\/raw.githubusercontent.com\/ysnows\/enconvo-caiyun\/main\/appcast.json",
   "author" : "ysnows",
-  "extensionId" : "ysnows.caiyun",
-  "homePage" : "https:\/\/github.com\/ysnows\/enconvo-caiyun",
   "description" : "彩云小译(开源版)，免费使用，不需要key",
-  "name" : "彩云小译(开源版)",
   "logo" : "ns:translate",
-  "version" : "0.0.2"
+  "extensionId" : "ysnows.caiyun",
+  "version" : "0.0.6",
+  "homePage" : "https:\/\/github.com\/ysnows\/enconvo-caiyun",
+  "name" : "彩云小译(开源版)"
 }
